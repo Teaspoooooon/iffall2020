@@ -1,0 +1,40 @@
+p{
+    color: #8a95a1;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 30px;
+}
+
+.name4{
+    color: #0091b5;
+}
+.name6{
+    color: #fbd90f;
+}
+.name7{
+    color: #fe8200;
+}
+.name1{
+    color: #ce0900;
+}
+.name5{
+    color: #93eee4;
+}
+.name2{
+    color: #015c92;
+}
+.name3{
+    color: #7ea001;
+}
+
+#special-paragraph{
+    font-size: 50px;
+}
