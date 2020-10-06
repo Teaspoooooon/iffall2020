@@ -1,0 +1,95 @@
+html {
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 15pt;
+}
+
+body {
+    margin: 15%;
+}
+
+section {
+    margin: 6rem 0;
+}
+
+h1 {
+    color: #027dc5;
+    font-size: 40pt;
+    font-weight: 400;
+}
+
+h2 {
+    color: #a0c3e2;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #d9dad9;
+    font-size: 11pt;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 400;
+}
+
+.FWR {
+    font-weight: normal;
+}
+
+.FWB {
+    font-weight: bold;
+}
+
+.FSN {
+    font-style: normal;
+}
+
+.FSI {
+    font-style: italic;
+}
+
+.LSN {
+    letter-spacing: normal;
+}
+
+.LS3 {
+    letter-spacing: .3em;
+}
+
+.LS6 {
+    letter-spacing: -.06em;
+}
+
+.TDN {
+    text-decoration: none;
+}
+
+.TDU {
+    text-decoration: underline;
+}
+
+.TDLT {
+    text-decoration: line-through;
+}
+
+.TDO {
+    text-decoration: overline;
+}
+
+.TTN {
+    text-transform: none;
+}
+
+.TTU {
+    text-transform: uppercase;
+}
+
+.TTL {
+    text-transform: lowercase;
+}
+
+.TTC {
+    text-transform: capitalize;
+}
