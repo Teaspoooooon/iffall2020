@@ -1,0 +1,30 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+section {
+    margin: 6rem 0;
+}
+
+h2 {
+    font-size: 68pt;
+}
+
+.name{
+    color: #eff1fe;
+    text-align: center;
+    font-size: 65pt;
+    font-weight: bold;
+}
+
+.ann{
+    color: #a1caff;
+}
+
+.nai{
+    color: #eff1fe;
+}
+
+.both{
+    color: #fef270;
+    font-weight: bold;
+}
