@@ -1,0 +1,123 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a9/Shibai_Ukie_by_Masanobu_Okumura.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 158px;
+    color: white;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 0%; 
+}
+
+.sec-one {
+    color: white;
+    background-color: black;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 32px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.container-three {
+    width: 710px;
+    margin: auto;
+}
+
+.container-three p {
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+p {
+    font-size: 17.8px;
+    line-height: 1.41em;
+}
+
+img.one {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    object-fit: cover;
+}
+
+.sec-two {
+    color: white;
+    background-color: #1d152d;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 31px;
+}
+
+.grid img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+}
+
+.grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid li {
+    display: block;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.grid p {
+    margin-top: 5px;
+    font-size: 18px;
+    width: 90%;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.sec-three {
+    color: white;
+    background-color: #231f20;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 70px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
