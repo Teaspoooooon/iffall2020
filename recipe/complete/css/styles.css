@@ -1,0 +1,83 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    text-decoration: white;
+    color: #FFabc2;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    max-width: 960px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img { 
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+em {
+    color: #FFabc2;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Instructions ul {
+    list-style: decimal;
+}
+
+.example-pictures {
+    display: inline;
+}
+
+.example-pictures ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.example-pictures img{
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.Examples {
+    text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+    .Ingredients {  width: 50%;  }
+    .Instructions {  width: 50%;  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
