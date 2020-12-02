@@ -1,0 +1,464 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+            }
+            
+            a#btn_facebook {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #898F9C;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .5s;
+			}
+			a#btn_facebook:hover {
+                background-color: #4267B2;
+                width: 250px;
+            }
+            a#btn_facebook .fa-facebook {
+                transform: scale(1.2);
+			}
+			
+			a#btn_apple {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #fff;
+				color: black;
+				text-align: center;
+				font-size: 60px;
+				transition: all .5s;
+			}
+			a#btn_apple:hover {
+				background-color:black;
+				color: #fff;
+			}
+
+			a#btn_lyft {
+				display: inline-block;
+				height: 50px;
+				box-sizing: 50px 30px;
+				border: 1px solid ;
+				border-radius: 30px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				color: #FF00BF;
+				font-size: 30px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_lyft:hover {
+				color: white;
+				background-color: #FF00BF;
+			}
+
+			a#btn_cola {
+				display: inline-block;
+				height: 150px;
+				width: 150px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 50px;
+				padding: 10px 0 0 0;
+				transition: all .5s;
+			}
+			#btn_cola img {
+				width:150px;
+				margin-top:-11px;
+			}
+			a#btn_cola:hover {
+			transform: scale(1.2) rotate(360deg);
+			}
+			
+			a#btn_samsung {
+				display: inline-block;
+				height: 50px;
+				width: 150px;
+				box-sizing: border-box;
+				border-radius: 20px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 6px 0 0 0;
+				color: black;
+				font-size: 25px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_samsung:hover {
+				background-color: #0c4da2;
+				color: #fff;
+			}
+
+			a#btn_tesla {
+				display: inline-block;
+				height: 150px;
+				width: 150px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 50px;
+				padding: 0 0 0 0;
+			}
+			#btn_tesla img {
+				width: 150px;
+				height: 150px;
+			}
+			a#btn_tesla img:hover {
+				transform: scale(2) rotate(-90deg);
+				transition: all .5s;
+			}
+
+			a#btn_garden {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 0px 40px 0 40px;
+				background-color:#cddc55;
+				border: 2px solid#cddc55;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Ubuntu', sans-serif;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_garden:hover {
+				background-color: #fff;
+				border: 2px solid #ebb228;
+				color: #cddc55;
+				transform: scale(1.5);
+			}
+
+			a#btn_moo {
+				display: inline-block;
+				height: 80px;
+				width: 175px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 6px 0 0 0;
+				color: grey;
+				border: 2px solid#fff;
+				font-size: 50px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_moo:hover {
+				color: #5fa55a;
+				border: 2px solid#5fa55a;
+			}
+
+			a#btn_ins {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #fff;
+				color: black;
+				text-align: center;
+				font-size: 60px;
+				transition: all .5s;
+			}
+			a#btn_ins:hover {
+				background-color:#faf9fc;
+				color: #f73466;
+				transform: scale(3);
+			}
+
+			a#btn_newyorker {
+				display: inline-block;
+			    margin:auto;
+			    margin-top: 100px;
+			    padding: 8px 16px;
+			    background-color: #fff;
+			    color: #000;
+			    font-family: 'Open Sans', serif;
+			    font-weight: 400;
+			    font-style: normal;
+			    font-size: 30px;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_newyorker:hover {
+			    color: #000;
+			    border-bottom: 3px double black;
+			    font-size: 25px;
+			}
+
+			a#btn_fitbit {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 20px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				color: #00b0b9;
+				font-size: 30px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .2s;
+			}
+			a#btn_fitbit:hover {
+				color: #002a3a;
+			}
+
+			a#btn_oldnavy {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 35px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 2px 40px 0 40px;
+				background-color: #2f364a;
+				color: #fff;
+				font-size: 25px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_oldnavy:hover {
+				background-color: red;
+				color: white;
+				transform: scale(0.8);
+			}
+
+			a#btn_nike {
+				display: inline-block;
+				height: 150px;
+				width: 150px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 50px;
+				padding: 50px 0 0 0;
+				transition: all .5s;
+			}
+			#btn_nike img {
+				width:150px;
+				margin-top:-11px;
+			}
+			#btn_nike img:hover {
+				transform: scale(2) rotate(15deg);
+			}
+
+			a#btn_ideo {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				border: 2px solid black;
+				color: black;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_ideo:hover {
+				background-color: #fa8925;
+				border: 5px solid #a1d8d3;
+				color: white;
+				transform: scale(0.8);
+			}
+
+			a#btn_sardella {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 8px 40px 0 40px;
+				color: #00c3ff;
+				font-size: 25px;
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+			a#btn_sardella:hover {
+				color: #0077ff;
+				transform: scale(2.2);
+			}
+
+			a#btn_hsn {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding: 24px 40px 0 9px;
+				background-color: #027dc5;
+				color: #fff;
+				text-decoration: none;
+				font-size: 40px;
+				font-weight: bold;
+				transition: all .5s;
+		    }
+		    a#btn_hsn:hover {
+				background-color: #fff;
+				color: #027dc5;
+		    }
